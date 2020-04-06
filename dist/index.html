@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Find</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container">
+          <!-- Brand/logo -->
+          <a class="navbar-brand" href="#">Github Find Users</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container mt-3">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6 mx-auto">
+                <form class="mt-2 mb-5 search-user-form">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control search-user-value"
+                      placeholder="Search github user..."
+                      id="email"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3 user-left"></div>
+              <div class="col-md-9 user-right"></div>
+            </div>
+
+            <div class="repos-container"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center p-2 mt-2 mb-2">
+      copyright githubfilder &copy;
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/app-bundle.js"></script>
+  </body>
+</html>
