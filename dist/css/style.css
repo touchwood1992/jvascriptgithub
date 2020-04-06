@@ -12,3 +12,8 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 767px) {
+  .btn-danger.d-block.mt-2 {
+    margin-bottom: 10px;
+  }
+}
